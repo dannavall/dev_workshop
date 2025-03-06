@@ -69,3 +69,4 @@ class Magic:
             sum(matriz[i][i] for i in range(len(matriz))) == suma_objetivo and
             sum(matriz[i][len(matriz) - 1 - i] for i in range(len(matriz))) == suma_objetivo
         )
+    
