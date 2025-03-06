@@ -48,4 +48,4 @@ if __name__ == "__main__":
     for nombre, args in operaciones.items():
         metodo = getattr(logica, nombre)
         resultado = metodo(*args)
-        print(f"{nombre}({', '.join(map(str, args))}): {resultado}")
+        print(f"{nombre}({', '.join(map(str, args))}): {resultado}")   
