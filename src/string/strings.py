@@ -66,3 +66,4 @@ class Strings:
     
     def eliminar_espacios_duplicados(self, texto):
         return re.sub(r'\s+', ' ', texto)
+    
